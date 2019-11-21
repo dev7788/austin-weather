@@ -1,6 +1,32 @@
 # Office-Addin-TaskPane-React-JS
 
+This is Outlook Add-in showing current temperature in Austin.
+
 This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
+
+## How to install
+
+* Go to the project root folder and install npm packages.
+
+    ```
+    npm install
+    ```
+
+* Copy /src/taskpane/env.json.example and paste to /src/taskpane/env.json.
+
+* Set openwopenweathermap_api_key in the env.json.
+
+* run this command.
+
+    ```
+    npm start
+    ```
+
+* If you want to test on web, run this command.
+    
+    ```
+    npm run start:web
+    ```
 
 ## JavaScript
 
